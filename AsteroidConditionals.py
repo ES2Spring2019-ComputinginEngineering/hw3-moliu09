@@ -11,8 +11,8 @@
 # FILL THESE COMMENTS IN
 #*****************************************
 # YOUR NAME: Mo Liu
-# NUMBER OF HOURS TO COMPLETE:
-# YOUR COLLABORATION STATEMENT(s):
+# NUMBER OF HOURS TO COMPLETE:.5
+# YOUR COLLABORATION STATEMENT(s): I worked alone on this assignment.
 #
 #
 #*****************************************
