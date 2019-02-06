@@ -2,14 +2,18 @@
 #Partner: Bo Eaves
 #I worked on this assignmeng with Bo with assistance from Olivia and Brian.
 
+#Part I: import
 import microbit
 import math #importing the libraries
 
+#Part II: variable initializing
+BOAT = microbit.Image("05050:05050:05050:99999:09990")
+
+#Part III: custom functions
 def measuring_tilt_in_3D(a, b, c):
     return math.atan2(a, math.sqrt(b**2+c**2))
 
-BOAT = microbit.Image("05050:05050:05050:99999:09990")
-
+#Part IV: mains cript
 while True:
     microbit.sleep(100)
     (x, y, z) = microbit.accelerometer.get_values() #this function doesn't take any parameter
